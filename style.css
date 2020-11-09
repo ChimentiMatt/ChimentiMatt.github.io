@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
 /* pink #F29199
 black #031226
 green #20788C
@@ -12,7 +14,10 @@ orange color#F2C185 */
     padding: 0;
     margin: 0;
 
-    font-family: 'Lato', sans-serif;
+    font-family: 'Crimson Text', serif;
+
+
+
 }
 
 body {
@@ -74,10 +79,11 @@ a:hover {
 .heading-pro {
     display: flex;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 36px;
     font-size: 36px;
     /* border:solid #04B2D9; */
     color: #F2D57E;
+    
 
 }
 
@@ -94,8 +100,8 @@ a:hover {
 }
 
 #divider {
-    background-color: #F2C185;
-    margin-top: 140px;
+    /* background-color: #F2C185; */
+    margin-top: 75px;
     padding-bottom: 50px;
 }
 
@@ -109,16 +115,28 @@ a:hover {
 }
 
 .resume{ 
-    margin-top: 116px;
-    font-size: 36px;
+    font-size: 46px;
     color:#F2D57E;
+    margin-bottom: 100px;
 
+}
+
+.resume-class {
+    margin-bottom: 36px;
 }
 
 .resume-class a:hover{
     color: #F2C185;
+    
 
 }
+
+.pro-back-port {
+    background-color: #031226;
+    padding-top: 36px;
+
+}
+
 
 .columns {
     /* padding-top: 50px; */
@@ -169,7 +187,8 @@ a:hover {
 .contact{
     display: flex;
     flex-direction: column;
-    /* padding-top: 50px; */
+    padding-top: 100px;
+    padding-bottom: 36px;
 }
 
 .heading-contact {
@@ -177,11 +196,11 @@ a:hover {
     font-size: 36px; 
 }
 
-#divider2 {
+/* #divider2 {
     background-color: #F2C185;
     margin-top: 140px;
-    padding-bottom: 50px;
-}
+    padding-bottom: 36px;
+} */
 
 
 @media (max-width: 1100px){
