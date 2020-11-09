@@ -42,23 +42,26 @@ a:hover {
 
 #name {
     font-size: 30px;
-    padding-top: 66px;
+    padding-top: 16px;
     justify-content: center;
     text-align: center;
-    color:white;
+    color: white;
+
 }
 
 #name2 {
-
+    padding-top: 16px;
     text-align: center;
     font-size: 100px;
     color: white;
+    text-shadow: 2px 2px #F2D57E;
 }
 
 #name3 {
     text-align: center;
     font-size: 100px;
     color: white;
+    text-shadow: 2px 2px #F2D57E;
 }
 
 #see-more {
@@ -72,6 +75,7 @@ a:hover {
     text-decoration: none;
     display: inline-block;
     font-size: 24px;
+    box-shadow: 2px 2px #F2D57E;
 }
 
 
@@ -101,32 +105,33 @@ a:hover {
 
 #divider {
     /* background-color: #F2C185; */
-    margin-top: 75px;
+    margin-top: 80px;
     padding-bottom: 50px;
 }
 
 .about-me {
-    padding-top: 36px;
     font-size: 36px;
     margin-left: 16px;
     margin-right: 16px;
     color:white;
     padding-bottom: 30px;
+    padding-top: 36px;
 }
 
 .resume{ 
+
     font-size: 46px;
-    color:#F2D57E;
-    margin-bottom: 100px;
+    color: white;
+
 
 }
 
 .resume-class {
-    margin-bottom: 36px;
+    padding-top: 36px;
 }
 
 .resume-class a:hover{
-    color: #F2C185;
+    color: #F2D57E;;
     
 
 }
@@ -147,6 +152,7 @@ a:hover {
 .column-heading-left {
     font-size: 36px;
     color:#F2D57E;
+
 }
 
 .column-heading-right {
@@ -187,7 +193,7 @@ a:hover {
 .contact{
     display: flex;
     flex-direction: column;
-    padding-top: 100px;
+    padding-top: 16px;
     padding-bottom: 36px;
 }
 
@@ -205,7 +211,7 @@ a:hover {
 
 @media (max-width: 1100px){
     .pro-points p{
-        font-size: 6px;
+        font-size: 7px;
     }
     .column-right a{
         font-size: 21px;
@@ -216,6 +222,11 @@ a:hover {
     .contact {
         margin-top: -56px;
     }
-
+    .about-me{
+        padding-top: 0px;
+    }
+    .contact {
+        padding-top: 60px;
+    }
 }
         
