@@ -229,5 +229,9 @@ a:hover {
     .contact {
         padding-top: 60px;
     }
+    #see-more {
+        visibility: hidden;
+        
+    }
 }
         
