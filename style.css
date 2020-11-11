@@ -109,11 +109,14 @@ a:hover {
     padding-bottom: 50px;
 }
 .about-me-heading {
-    padding-top: 6px;
+    padding-top: 26px;
     font-size: 36px;
     color: #F2D57E;
     border-top: 2px solid;
     border-width: 10px;
+
+
+
 
 }
 .about-me {
@@ -125,7 +128,9 @@ a:hover {
     padding-top: 16px;
 
 }
-
+.about-me p {
+    padding-bottom: 16px;
+}
 .resume{ 
     font-size: 46px;
     color: white;
@@ -196,7 +201,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     padding-top: 16px;
-    padding-bottom: 36px;
+    padding-bottom: 16px;
 }
 
 .heading-contact {
@@ -225,7 +230,7 @@ a:hover {
 
     .about-me{
         padding-top: 6px;
-        padding-bottom: 16px;
+        padding-bottom: 30px;
     }
     .contact {
         padding-top: 60px;
