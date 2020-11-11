@@ -6,7 +6,7 @@
 black #031226
 green #20788C
 yellow #F2D57E
-orange color#F2C185 */
+orange #F2C185 */
 
 
 * {
@@ -108,22 +108,27 @@ a:hover {
     margin-top: 80px;
     padding-bottom: 50px;
 }
+.about-me-heading {
+    padding-top: 6px;
+    font-size: 36px;
+    color: #F2D57E;
+    border-top: 2px solid;
+    border-width: 10px;
 
+}
 .about-me {
     font-size: 36px;
     margin-left: 16px;
     margin-right: 16px;
     color:white;
     padding-bottom: 30px;
-    padding-top: 36px;
+    padding-top: 16px;
+
 }
 
 .resume{ 
-
     font-size: 46px;
     color: white;
-
-
 }
 
 .resume-class {
@@ -132,13 +137,12 @@ a:hover {
 
 .resume-class a:hover{
     color: #F2D57E;;
-    
-
 }
 
 .pro-back-port {
     background-color: #031226;
     padding-top: 36px;
+    border-top: 10px solid #F2D57E;
 
 }
 
@@ -188,8 +192,6 @@ a:hover {
 
 }
 
-
-
 .contact{
     display: flex;
     flex-direction: column;
@@ -202,11 +204,9 @@ a:hover {
     font-size: 36px; 
 }
 
-/* #divider2 {
-    background-color: #F2C185;
-    margin-top: 140px;
-    padding-bottom: 36px;
-} */
+#divider2 {
+    border-top: 10px solid #F2D57E;
+}
 
 
 @media (max-width: 1100px){
@@ -222,9 +222,10 @@ a:hover {
     .contact {
         margin-top: -56px;
     }
+
     .about-me{
-        padding-top: 50px;
-        padding-bottom: 72px;
+        padding-top: 6px;
+        padding-bottom: 16px;
     }
     .contact {
         padding-top: 60px;
